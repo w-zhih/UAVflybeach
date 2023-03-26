@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="Uwb_Location" type="imu_real.py" name="imu" output="screen"> </node>
+    <node pkg="Uwb_Location" type="UwbLocation" name="uwb" output="screen"> </node>
+</launch>

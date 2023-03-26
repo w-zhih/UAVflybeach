@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- 多点导航，通过RVIZ发布多个导航点，机器人依次导航 -->
+    <node pkg="xtark_nav" type="xtark_multi.py" name="xtark_multi" respawn="false" output="screen">
+    </node>
+
+</launch>

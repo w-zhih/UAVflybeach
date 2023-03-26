@@ -1,0 +1,5 @@
+- roscore
+- rosrun Uwb_Location UwbLocation(单独跑UWB相关或者跑)
+- Please edit anchorArray before running（基站位置标记）
+- port: /dev/ttyCH341USB0（传感器端口号对应，UWB和电子罗盘都需要对应上）
+- topic: /uwb/data
